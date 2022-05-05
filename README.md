@@ -108,7 +108,7 @@ Benefits of using RxJava:
 
 ### Via GitHub:
 ```
-https://github.com/Danielvfrodrigues/appbreaktheice
+https://github.com/Danielvfrodrigues/appbreaktheice_kotlin
 ```
 Download the project and run on Android Studio.
 <br>
