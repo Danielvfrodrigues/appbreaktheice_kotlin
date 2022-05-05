@@ -1,11 +1,7 @@
 package br.com.bravi.breaktheice.util
 
-import android.app.Activity
 import android.content.Context
-import androidx.appcompat.app.AlertDialog
 import br.com.bravi.breaktheice.R
-import br.com.bravi.breaktheice.presentation.activity.MainActivity
-import okhttp3.internal.Internal.instance
 
 /**
  * @author Daniel Rodrigues

@@ -5,6 +5,10 @@ import android.content.SharedPreferences
 import java.text.SimpleDateFormat
 import java.util.*
 
+/**
+ * @author Daniel Rodrigues
+ * "Sometimes I believe the compiler ignores all my comments."
+ */
 class TimerHelper(context: Context) {
 
     private var sharedPreferences :SharedPreferences = context.getSharedPreferences(PREFERENCES, Context.MODE_PRIVATE)
