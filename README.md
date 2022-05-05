@@ -1,9 +1,3 @@
-![GitHub repo size](https://img.shields.io/github/repo-size/Danielvfrodrigues/appbreaktheice?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/Danielvfrodrigues/appbreaktheice?style=for-the-badge)
-
-<br>
-<br>
-
 <img src="https://github.com/Danielvfrodrigues/appbreaktheice/blob/master/app/src/main/res/drawable/bti_logo_black_png.png" alt="Break The Ice Logo">
 
 > ### Making idle times productive.
