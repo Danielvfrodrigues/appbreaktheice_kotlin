@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Primary colors. -->
+
+    <color name="primary">#FF128E9A</color>
+    <color name="primaryVariant">#FF00606C</color>
+    <color name="primaryRipple">#3357BFCB</color>
+    <color name="primaryDisabled">@color/grey</color>
+    <color name="primaryEnabled">@color/primary</color>
+    <color name="primaryPressed">@color/primary</color>
+    <color name="onPrimary">@color/white</color>
+
+    <!-- Secondary colors. -->
+
+    <color name="secondary">#FFF3B41D</color>
+    <color name="secondaryVariant">#FFD59E1B</color>
+    <color name="secondaryRipple">#33FFE657</color>
+    <color name="secondaryDisabled">@color/grey</color>
+    <color name="secondaryEnabled">@color/secondary</color>
+    <color name="secondaryPressed">@color/secondaryVariant</color>
+    <color name="onSecondary">@color/darkGrey</color>
+
+    <!--  General  -->
+
+    <color name="blue">#FF9DCFD2</color>
+    <color name="green">#FF167D00</color>
+    <color name="darkGrey">#FF787878</color>
+    <color name="grey">#FFCCCCCC</color>
+    <color name="lightBlue">#FFB8DADD</color>
+    <color name="lightGrey">#FFEEEEEE</color>
+    <color name="red">#FFFF0000</color>
+    <color name="lightRed">#FFFF5A5A</color>
+    <color name="white">#FFF6F6F6</color>
+
+</resources>

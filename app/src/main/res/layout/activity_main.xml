@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="br.com.bravi.breaktheice.presentation.viewmodel.MainViewModel" />
+
+    </data>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bti_bg_pattern_light">
+
+        <include layout="@layout/toolbar" />
+
+        <FrameLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/dimen_56dp" />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</layout>

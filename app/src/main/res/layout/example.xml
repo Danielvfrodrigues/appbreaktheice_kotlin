@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/dimen_16dp">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        style="@style/FontText.MD"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/example_hint"
+                        android:textColor="@color/primary_stated" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        style="@style/Widget.TextInputLayout.OutlinedBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            style="@style/FontText.MD"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:singleLine="true"
+                            android:textColor="@color/primary_stated"
+                            android:textStyle="bold" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_16dp"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        style="@style/FontText.MD"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:enabled="false"
+                        android:text="@string/example_hint"
+                        android:textColor="@color/primary_stated" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        style="@style/Widget.TextInputLayout.OutlinedBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:enabled="false">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            style="@style/FontText.MD"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:singleLine="true"
+                            android:textColor="@color/primary_stated"
+                            android:textStyle="bold" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_16dp"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        style="@style/FontText.MD"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/example_hint"
+                        android:textColor="@color/primary_stated" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        style="@style/Widget.TextInputLayout.OutlinedBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            style="@style/FontText.MD"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:singleLine="true"
+                            android:textColor="@color/primary_stated"
+                            android:textStyle="bold" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textview.MaterialTextView
+                        style="@style/FontText.XS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginTop="@dimen/dimen_8dp"
+                        android:text="@string/example_helper"
+                        android:textColor="@color/primary_stated" />
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_16dp"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        style="@style/FontText.MD"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:enabled="false"
+                        android:text="@string/example_hint"
+                        android:textColor="@color/primary_stated" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        style="@style/Widget.TextInputLayout.OutlinedBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:enabled="false">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            style="@style/FontText.MD"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:singleLine="true"
+                            android:textColor="@color/primary_stated"
+                            android:textStyle="bold" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textview.MaterialTextView
+                        style="@style/FontText.XS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginTop="@dimen/dimen_8dp"
+                        android:enabled="false"
+                        android:text="@string/example_helper"
+                        android:textColor="@color/primary_stated" />
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_16dp"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        style="@style/FontText.MD"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/example_hint"
+                        android:textColor="@color/primary_stated" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        style="@style/Widget.ExposedDropdownMenu.OutlinedBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <com.google.android.material.textfield.MaterialAutoCompleteTextView
+                            style="@style/FontText.MD"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="none"
+                            android:singleLine="true"
+                            android:textColor="@color/primary_stated"
+                            android:textStyle="bold" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_16dp"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        style="@style/FontText.MD"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:enabled="false"
+                        android:text="@string/example_hint"
+                        android:textColor="@color/primary_stated" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        style="@style/Widget.ExposedDropdownMenu.OutlinedBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:enabled="false">
+
+                        <com.google.android.material.textfield.MaterialAutoCompleteTextView
+                            style="@style/FontText.MD"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="none"
+                            android:singleLine="true"
+                            android:textColor="@color/primary_stated"
+                            android:textStyle="bold" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_16dp"
+                android:orientation="vertical">
+
+                <com.google.android.material.button.MaterialButton
+                    style="@style/Widget.Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_64dp"
+                    android:text="@string/example_label"
+                    android:textAllCaps="true" />
+
+                <com.google.android.material.button.MaterialButton
+                    style="@style/Widget.Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_64dp"
+                    android:layout_marginTop="@dimen/dimen_16dp"
+                    android:enabled="false"
+                    android:text="@string/example_label"
+                    android:textAllCaps="true" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_16dp"
+                android:orientation="vertical">
+
+                <com.google.android.material.button.MaterialButton
+                    style="@style/Widget.Button.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_64dp"
+                    android:text="@string/example_label"
+                    android:textAllCaps="true" />
+
+                <com.google.android.material.button.MaterialButton
+                    style="@style/Widget.Button.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_64dp"
+                    android:layout_marginTop="@dimen/dimen_16dp"
+                    android:enabled="false"
+                    android:text="@string/example_label"
+                    android:textAllCaps="true" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.core.widget.NestedScrollView>
+
+</layout>

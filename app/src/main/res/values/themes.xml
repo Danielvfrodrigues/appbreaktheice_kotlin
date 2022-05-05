@@ -1,0 +1,156 @@
+<resources>
+
+    <!-- Theme style. -->
+
+    <style name="Theme.Appbreaktheice" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primaryVariant</item>
+        <item name="colorOnPrimary">@color/onPrimary</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">@color/secondaryVariant</item>
+        <item name="colorOnSecondary">@color/onSecondary</item>
+        <item name="android:statusBarColor">@color/primaryVariant</item>
+    </style>
+
+    <style name="Theme.PopupOverlay" parent="ThemeOverlay.Material3.Light" />
+
+    <style name="Theme.Dialog" parent="Theme.Material3.Light.Dialog">
+        <item name="android:windowMinWidthMajor">90%</item>
+        <item name="android:windowMinWidthMinor">90%</item>
+        <item name="dialogCornerRadius">@dimen/dimen_12dp</item>
+        <item name="theme">@style/Theme.Appbreaktheice</item>
+    </style>
+
+    <!-- Widget style. -->
+
+    <style name="Widget.Toolbar" parent="Widget.Material3.Toolbar">
+        <item name="contentInsetStartWithNavigation">@dimen/dimen_0dp</item>
+        <item name="popupTheme">@style/Theme.PopupOverlay</item>
+        <item name="background">@color/grey</item>
+    </style>
+
+    <style name="Widget.ExposedDropdownMenu.OutlinedBox" parent="Widget.Material3.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu">
+        <item name="errorEnabled">false</item>
+        <item name="errorIconDrawable">@null</item>
+        <item name="errorTextAppearance">@style/FontText.XS</item>
+        <item name="counterTextAppearance">@style/FontText.XS</item>
+        <item name="hintTextAppearance">@style/FontText.MD</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/dimen_6dp</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/dimen_6dp</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/dimen_6dp</item>
+        <item name="boxCornerRadiusTopStart">@dimen/dimen_6dp</item>
+        <item name="boxBackgroundColor">@color/onPrimary</item>
+        <item name="boxStrokeColor">@color/primary_stated</item>
+        <item name="boxStrokeErrorColor">@color/red</item>
+        <item name="boxStrokeWidth">@dimen/dimen_4dp</item>
+    </style>
+
+    <style name="Widget.TextInputLayout.OutlinedBox" parent="Widget.Material3.TextInputLayout.OutlinedBox.Dense">
+        <item name="errorEnabled">false</item>
+        <item name="errorIconDrawable">@null</item>
+        <item name="errorTextAppearance">@style/FontText.XS</item>
+        <item name="counterTextAppearance">@style/FontText.XS</item>
+        <item name="hintTextAppearance">@style/FontText.MD</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/dimen_6dp</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/dimen_6dp</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/dimen_6dp</item>
+        <item name="boxCornerRadiusTopStart">@dimen/dimen_6dp</item>
+        <item name="boxBackgroundColor">@color/onPrimary</item>
+        <item name="boxStrokeColor">@color/primary_stated</item>
+        <item name="boxStrokeErrorColor">@color/red</item>
+        <item name="boxStrokeWidth">@dimen/dimen_4dp</item>
+    </style>
+
+    <style name="Widget.Button" parent="Widget.Material3.Button">
+        <item name="android:stateListAnimator">@animator/state_scaled</item>
+        <item name="android:textAppearance">@style/FontLabel.MD</item>
+        <item name="android:textColor">@color/onSecondary</item>
+        <item name="cornerRadius">@dimen/dimen_12dp</item>
+        <item name="backgroundTint">@color/secondary_stated</item>
+        <item name="rippleColor">@android:color/transparent</item>
+    </style>
+
+    <style name="Widget.FinishButton" parent="Widget.Material3.Button">
+        <item name="android:stateListAnimator">@animator/state_scaled</item>
+        <item name="android:textAppearance">@style/FontLabel.MD</item>
+        <item name="android:textColor">@color/grey</item>
+        <item name="cornerRadius">@dimen/dimen_12dp</item>
+        <item name="backgroundTint">@color/green</item>
+        <item name="rippleColor">@android:color/transparent</item>
+    </style>
+
+    <style name="Widget.CancelButton" parent="Widget.Material3.Button">
+        <item name="android:stateListAnimator">@animator/state_scaled</item>
+        <item name="android:textAppearance">@style/FontLabel.MD</item>
+        <item name="android:textColor">@color/grey</item>
+        <item name="cornerRadius">@dimen/dimen_12dp</item>
+        <item name="backgroundTint">@color/lightRed</item>
+        <item name="rippleColor">@android:color/transparent</item>
+    </style>
+
+    <style name="Widget.Button.Outlined" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:stateListAnimator">@animator/state_scaled</item>
+        <item name="android:textAppearance">@style/FontLabel.MD</item>
+        <item name="cornerRadius">@dimen/dimen_12dp</item>
+        <item name="backgroundTint">@color/onPrimary</item>
+        <item name="strokeColor">@color/primary_stated</item>
+    </style>
+
+    <style name="Widget.FloatingActionButton" parent="Widget.Material3.ExtendedFloatingActionButton.Primary">
+        <item name="android:textAppearance">@style/FontLabel.MD</item>
+        <item name="android:textColor">@color/onSecondary</item>
+        <item name="backgroundTint">@color/secondary_stated</item>
+        <item name="fabSize">normal</item>
+        <item name="layout_behavior">
+            com.google.android.material.behavior.HideBottomViewOnScrollBehavior
+        </item>
+        <item name="maxImageSize">@dimen/dimen_32dp</item>
+        <item name="tint">@color/red</item>
+        <item name="iconTint">@color/onSecondary</item>
+        <item name="useCompatPadding">true</item>
+    </style>
+
+    <style name="Widget.Switch" parent="Widget.Material3.CompoundButton.Switch">
+        <item name="thumbTint">@color/switch_thumb_stated</item>
+        <item name="trackTint">@color/switch_track_stated</item>
+    </style>
+
+    <!-- Font style.  -->
+
+    <style name="FontLabel">
+        <item name="android:fontFamily">@font/montserrat_semibold</item>
+    </style>
+
+    <style name="FontLabel.SM" parent="FontLabel">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="FontLabel.MD" parent="FontLabel">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="FontText">
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+    </style>
+
+    <style name="FontText.XS" parent="FontText">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="FontText.SM" parent="FontText">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="FontText.MD" parent="FontText">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="FontTitle">
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+    </style>
+
+    <style name="FontTitle.XL" parent="FontTitle">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+</resources>

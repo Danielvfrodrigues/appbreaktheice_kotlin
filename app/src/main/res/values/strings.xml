@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- App -->
+
+    <string name="app_name">Break The Ice</string>
+
+    <!-- Button -->
+
+    <string name="button_activity">New Activity</string>
+    <string name="button_search">Search</string>
+
+    <!-- Example -->
+
+    <string name="example_helper">Helper</string>
+    <string name="example_hint">Hint</string>
+    <string name="example_label">Label</string>
+
+    <!-- Hint -->
+
+    <string name="hint_filter_type">Filter by Type</string>
+
+    <!-- Label -->
+
+    <string name="label_accessibility_easy">Easy</string>
+    <string name="label_accessibility_medium">Medium</string>
+    <string name="label_accessibility_hard">Hard</string>
+    <string name="label_key">Id: %s</string>
+    <string name="label_participants">%d</string>
+    <string name="button_start">Start Activity</string>
+    <string name="button_finish">Finish Activity</string>
+    <string name="button_cancel">Cancel Activity</string>
+    <string name="place_holder_time">00:00:00</string>
+
+</resources>
